@@ -1,0 +1,16 @@
+PODS:
+  - UserSession (0.1.0)
+
+DEPENDENCIES:
+  - UserSession (from `../`)
+
+EXTERNAL SOURCES:
+  UserSession:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UserSession: a30f4f5099817a2da324b1b87a33e5bd956e7c78
+
+PODFILE CHECKSUM: c0e5a05392e991756e4e02dbb7ef224f3c274c1a
+
+COCOAPODS: 1.0.1
