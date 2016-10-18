@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6284E12F707FA89D9CBCC6AB8AF5C077 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B517B89E1290FE79841440A941C0756 /* ReplaceMe.swift */; };
+		0D2150211DB65F01005E9EA7 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2150201DB65F01005E9EA7 /* UserSession.swift */; };
+		0D2150221DB65F01005E9EA7 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2150201DB65F01005E9EA7 /* UserSession.swift */; };
 		78BA2AF6300F7C385826B716027B4C6D /* Pods-UserSession_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C8E8D9F5ECEAB13282BB9AC0B2CC8 /* Pods-UserSession_Tests-dummy.m */; };
 		80CF5C2217E2DFFBC48A92CD322C9621 /* UserSession-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D36E2317A773B37A3C085C4AC93BA /* UserSession-dummy.m */; };
 		8F62910B48C34FE08E2785F91A19327A /* Pods-UserSession_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A2D45B0EB932B9B844C54E641C7E4B /* Pods-UserSession_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +31,7 @@
 		03E573541813657CF70FB88D0CE050A4 /* Pods-UserSession_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UserSession_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		04096FEEC54BF480AAEF9FCB19D6DD05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B15A3F78A9BBE3CD07BA5157C708789 /* Pods_UserSession_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserSession_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2150201DB65F01005E9EA7 /* UserSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		13B1BACA36378C1F801B24389EAFF251 /* Pods-UserSession_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UserSession_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		244A5FF096E8BF400F64083B7FE87C6C /* Pods-UserSession_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UserSession_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		31B848F82C8DB97E72827C24B2E871AE /* UserSession.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UserSession.xcconfig; sourceTree = "<group>"; };
@@ -38,7 +40,6 @@
 		551744F9CB7D7681F87B7C4C02A9A18E /* UserSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E18B37EA4D362978C59D2EF8B3A7A86 /* Pods-UserSession_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UserSession_Tests.modulemap"; sourceTree = "<group>"; };
 		6A7B3BC53376C80DF66994DD3D041C1A /* UserSession.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UserSession.modulemap; sourceTree = "<group>"; };
-		6B517B89E1290FE79841440A941C0756 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		76415C4D1283CC885F1559F81B971017 /* Pods-UserSession_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UserSession_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		88CD3D682CFB41D6245F0CAEB1698C0C /* Pods-UserSession_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UserSession_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EE6B0840E715CB0DB0473D558ACE7E2 /* Pods-UserSession_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UserSession_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -159,7 +160,7 @@
 		A8BBBDDCB679F1425B69A31F5AE965A7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6B517B89E1290FE79841440A941C0756 /* ReplaceMe.swift */,
+				0D2150201DB65F01005E9EA7 /* UserSession.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -278,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78BA2AF6300F7C385826B716027B4C6D /* Pods-UserSession_Tests-dummy.m in Sources */,
+				0D2150211DB65F01005E9EA7 /* UserSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6284E12F707FA89D9CBCC6AB8AF5C077 /* ReplaceMe.swift in Sources */,
 				80CF5C2217E2DFFBC48A92CD322C9621 /* UserSession-dummy.m in Sources */,
+				0D2150221DB65F01005E9EA7 /* UserSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31B848F82C8DB97E72827C24B2E871AE /* UserSession.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -375,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88CD3D682CFB41D6245F0CAEB1698C0C /* Pods-UserSession_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -410,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31B848F82C8DB97E72827C24B2E871AE /* UserSession.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -482,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03E573541813657CF70FB88D0CE050A4 /* Pods-UserSession_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
