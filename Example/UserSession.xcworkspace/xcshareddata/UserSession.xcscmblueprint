@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "060675E656EFB71AA774626AAB7F597961C67B85",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "060675E656EFB71AA774626AAB7F597961C67B85" : 9223372036854775807,
+    "21DD10C2F6F432A9966852BE4B517B13C80DBC04" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "61E396F5-6D8E-4DCB-86B2-CB87AE0C0360",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "060675E656EFB71AA774626AAB7F597961C67B85" : "UserSession\/",
+    "21DD10C2F6F432A9966852BE4B517B13C80DBC04" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UserSession",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/UserSession.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mkrisztian95\/UserSession.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "060675E656EFB71AA774626AAB7F597961C67B85"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mkrisztian95\/FirstValidUsablePod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21DD10C2F6F432A9966852BE4B517B13C80DBC04"
+    }
+  ]
+}

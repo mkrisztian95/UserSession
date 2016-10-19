@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A subclass that helps to store user`s sessions up to date'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  # This description is used to generate tags and improve search results.
+  #   * Think: What does it do? Why did you write it? What is the focus?
+  #   * Try to keep it short, snappy and to the point.
+  #   * Write the description between the DESC delimiters below.
+  #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'A subclass that helps to store user`s sessions up to dateA subclass that helps to store user`s sessions up to dateA subclass that helps to store user`s sessions up to date'
 
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.ios.framework  = 'UIKit'
-#s.dependency 'SwiftyJSON'
+  # s.ios.framework  = 'UIKit'
+ s.dependency 'SwiftyJSON'
 end
