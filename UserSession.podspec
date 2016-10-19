@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UserSession'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A subclass that helps to store user`s sessions up to date'
 
   # This description is used to generate tags and improve search results.

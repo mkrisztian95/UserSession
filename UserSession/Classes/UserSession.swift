@@ -8,8 +8,8 @@
 
 import UIKit
 
-class UserSession: NSObject {
-  func getHello() {
+public class UserSession: NSObject {
+  public func getHello() {
     print("Hello")
   }
 }
