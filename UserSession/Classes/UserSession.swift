@@ -16,4 +16,8 @@ public class UserSession: NSObject {
   public func getSzia() {
     print("Szia")
   }
+  
+  public func loginedUser() {
+    print("Szia")
+  }
 }
