@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/UserSession.svg?style=flat)](http://cocoapods.org/pods/UserSession)
 [![Platform](https://img.shields.io/cocoapods/p/UserSession.svg?style=flat)](http://cocoapods.org/pods/UserSession)
 [![Join the chat at https://gitter.im/UserSession/Lobby](https://badges.gitter.im/Join%20Chat.svg)]
+[![Code Climate](https://codeclimate.com/repos/58087b8fb3c7bd7cf6002313/badges/638ed6c8b77a6006a256/gpa.svg)](https://codeclimate.com/repos/58087b8fb3c7bd7cf6002313/feed)
+[![Test Coverage](https://codeclimate.com/repos/58087b8fb3c7bd7cf6002313/badges/638ed6c8b77a6006a256/coverage.svg)](https://codeclimate.com/repos/58087b8fb3c7bd7cf6002313/coverage)
+[![Issue Count](https://codeclimate.com/repos/58087b8fb3c7bd7cf6002313/badges/638ed6c8b77a6006a256/issue_count.svg)](https://codeclimate.com/repos/58087b8fb3c7bd7cf6002313/feed)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
