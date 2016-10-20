@@ -20,4 +20,8 @@ public class UserSession: NSObject {
   public func loginedUser() {
     print("Szia")
   }
+  
+  public func loginedUsers() {
+    print("Szia")
+  }
 }
