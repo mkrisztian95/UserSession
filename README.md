@@ -29,6 +29,12 @@ pod "UserSession"
 import UserSession
 ```
 
+## Create a session for your user
+
+```swift
+UserSession().createSessionForTheUser("{userId}", "[foo:bar]")
+```
+[foo:bar] it's your user`s object as AnyObject
 
 ## Author
 

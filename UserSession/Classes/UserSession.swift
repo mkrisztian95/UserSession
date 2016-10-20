@@ -9,19 +9,23 @@
 import UIKit
 
 public class UserSession: NSObject {
-  public func getHello() {
-    print("Hello")
+  let CurrentUser = UserDefaults.standard
+  var logined:Bool = false
+  
+  
+  override init() {
+    if UserDefaults.standard.bool(forKey: "loggedIn") {
+      self.logined               = true
+    }
   }
   
-  public func getSzia() {
-    print("Szia")
+  
+  func createSessionForTheUser(andObjectId objectId: String, userObject:AnyObject) {
+    self.CurrentUser.set(true, forKey: "loggedIn")
+    self.CurrentUser.set(objectId, forKey: "userId")
   }
   
-  public func loginedUser() {
-    print("Szia")
-  }
-  
-  public func loginedUsers() {
-    print("Szia")
+  func somefunc() {
+    
   }
 }
