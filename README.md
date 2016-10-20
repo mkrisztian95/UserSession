@@ -37,7 +37,8 @@ UserSession().createSessionForTheUser("{userId}", "[foo:bar]")
 
 ```swift
 [foo:bar] 
-``` it's your user`s object as AnyObject
+``` 
+it's your user's object as AnyObject
 
 
 ## Author
