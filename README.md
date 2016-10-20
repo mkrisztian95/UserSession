@@ -34,7 +34,11 @@ import UserSession
 ```swift
 UserSession().createSessionForTheUser("{userId}", "[foo:bar]")
 ```
-[foo:bar] it's your user`s object as AnyObject
+
+```swift
+[foo:bar] 
+``` it's your user`s object as AnyObject
+
 
 ## Author
 
