@@ -12,4 +12,16 @@ public class UserSession: NSObject {
   public func getHello() {
     print("Hello")
   }
+  
+  public func getSzia() {
+    print("Szia")
+  }
+  
+  public func loginedUser() {
+    print("Szia")
+  }
+  
+  public func loginedUsers() {
+    print("Szia")
+  }
 }
