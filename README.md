@@ -1,10 +1,10 @@
 # UserSession
 
-[![CI Status](http://img.shields.io/travis/Molnar Kristian/UserSession.svg?style=flat)](https://travis-ci.org/Molnar Kristian/UserSession)
+[![CI Status](http://img.shields.io/travis/mkrisztian95/UserSession.svg?style=flat)](https://travis-ci.org/mkrisztian95/UserSession)
 [![Version](https://img.shields.io/cocoapods/v/UserSession.svg?style=flat)](http://cocoapods.org/pods/UserSession)
 [![License](https://img.shields.io/cocoapods/l/UserSession.svg?style=flat)](http://cocoapods.org/pods/UserSession)
 [![Platform](https://img.shields.io/cocoapods/p/UserSession.svg?style=flat)](http://cocoapods.org/pods/UserSession)
-
+[![Join the chat at https://gitter.im/UserSession/Lobby](https://badges.gitter.im/Join%20Chat.svg)]
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
