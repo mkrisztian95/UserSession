@@ -23,6 +23,13 @@ it, simply add the following line to your Podfile:
 pod "UserSession"
 ```
 
+## Usage
+
+```swift
+import UserSession
+```
+
+
 ## Author
 
 Molnar Kristian, krisztian.molnar@azinec.com
